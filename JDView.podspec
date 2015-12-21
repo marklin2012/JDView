@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.requires_arc = true
 
-  # s.source_files = 'JDView/*'
+  s.source_files = 'JDView/*'
   # s.resources = 'JDView/*'
 
   s.frameworks = 'UIKit'
