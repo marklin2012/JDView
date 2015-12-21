@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://aotu.io"
   s.license          = 'Code is MIT, then custom font licenses.'
   s.author           = { "linyi31" => "linyi@gjd.com" }
-  s.source           = { :git => "https://git.coding.net/marklin/JDSpecs.git", :tag => s.version }
+  s.source           = { :git => "https://github.com/marklin2012/JDView.git", :tag => s.version }
   # s.social_media_url = 'https://twitter.com/artsy'
 
   s.platform     = :ios, '9.0'
