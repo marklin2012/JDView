@@ -3,9 +3,10 @@ Pod::Spec.new do |s|
   s.version          = "0.0.1"
   # s.tag              = "0.0.1"
   s.summary          = "The open source fonts for JDView categories."
+  s.description      = 'This is a description for JDView categories doing test'
   s.homepage         = "http://aotu.io"
   s.license          = 'Code is MIT, then custom font licenses.'
-  s.author           = { "linyi31" => "linyi@gjd.com" }
+  s.author           = { "marklin2012" => "marklin2012@sina.cn" }
   s.source           = { :git => "https://github.com/marklin2012/JDView.git", :tag => s.version }
   # s.social_media_url = 'https://twitter.com/artsy'
 
@@ -15,5 +16,5 @@ Pod::Spec.new do |s|
   s.source_files = 'JDView/*'
   # s.resources = 'JDView/*'
 
-  s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'
 end
