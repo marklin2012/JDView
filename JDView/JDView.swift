@@ -10,7 +10,7 @@ import UIKit
 
 public class JDView: UIView {
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         
         backgroundColor = UIColor.redColor()
