@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
   # s.resources = 'JDView/*'
 
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'
+  s.module_name = 'JDView'
 end
