@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "JDView"
-  s.version          = "0.0.4"
+  s.version          = "0.0.5"
   s.summary          = "The open source fonts for JDView categories."
   s.description      = 'This is a description for JDView categories doing test'
   s.homepage         = "http://aotu.io"

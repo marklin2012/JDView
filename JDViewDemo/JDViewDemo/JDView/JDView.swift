@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JDView: UIView {
+public class JDView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -17,7 +17,7 @@ class JDView: UIView {
         
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
