@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "JDView"
-  s.version          = "0.0.1"
+  s.version          = "0.0.3"
   s.summary          = "The open source fonts for JDView categories."
   s.description      = 'This is a description for JDView categories doing test'
   s.homepage         = "http://aotu.io"
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.requires_arc = true
 
-  s.source_files = 'JDView/*'
+  s.source_files = 'JDView/JDView.swift'
   # s.resources = 'JDView/*'
 
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'
