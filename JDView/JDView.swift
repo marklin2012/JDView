@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JDView: UIView {
+public class JDView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
